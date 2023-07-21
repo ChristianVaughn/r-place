@@ -10,7 +10,7 @@
 // ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-            document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+            document.getElementsByTagName("garlic-bread-embed")[0].shadowRoot.children[0].getElementsByTagName("garlic-bread-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/ze-or/r-place-MT/main/Dotted Monkeytype Logo Template 2k2k.png";
